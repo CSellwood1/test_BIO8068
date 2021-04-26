@@ -1,5 +1,10 @@
 ##barley
 barley<-read.csv("C:\\Users\\nick\\Documents\\Newcastle\\Fourth Year\\BIO8068 Management and Visualisation of Data\\test_BIO8068_1\\Day2 barley.csv")
+library(ggplot2)
+library(car)
+library(RVAideMemoire)
+library(mosaic)
+
 head(barley)#looking at top few rows
 str(barley)#so you can check the characteristics of the variables
 barley$year<-as.factor(barley$year)#converts continuous to a factor
