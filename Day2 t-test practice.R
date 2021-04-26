@@ -19,6 +19,9 @@ mean(Yield~year, data=barley)
 #if you were to run an independent t-test
 t.test(Yield~year, data=barley)
 
+###
+mean(Yield~loc, data=barley)
+
 ##cars
 mtcars#will show you the whole file
 str(mtcars)#will show you the variable characteristics
